@@ -1,0 +1,58 @@
+/* reset styles */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html:focus-within {
+    scroll-behavior: smooth;
+}
+
+body {
+    min-height: 100vh;
+    text-rendering: optimizeSpeed;
+    line-height: 1.5;
+}
+
+img,
+picture {
+  max-width: 100%;
+  display: block;
+}
+
+
+/*helper */
+
+.container{
+    --container-width: 1200px;
+    max-width: var(--container-width);
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.font-Zen-Dots{
+    font-family: 'Zen Dots';
+    font-style: normal;
+    font-weight: 400;
+}
+.font-Jost{
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 500;
+}
+
+/* Variables */
+
+:root {
+    --color-white: #FFFFFF; 
+    --color-cloud-burst: #BDBFD1; 
+    --color-bolotO: #C9C27A;
+    --color-tealish-blue: #0F4CA5;
+    --color-cloud-burst: #9093B1;
+}
