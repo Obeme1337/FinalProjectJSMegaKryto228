@@ -55,4 +55,32 @@ picture {
     --color-bolotO: #C9C27A;
     --color-tealish-blue: #0F4CA5;
     --color-cloud-burst: #9093B1;
+    --background: linear-gradient(118.73deg, #CAB0B3 0.05%, #C3181F 38.91%, #0B0E17 99.88%, #09101D 100%);
 }
+
+/* */
+
+.main-header{
+    width: 100%;
+    display: inline-block;
+}
+
+.menu{
+    float: right;
+}
+
+.list{
+    display: flex;
+}
+
+li{
+    list-style-type: none;
+    margin: 20px;
+}
+
+img{
+    width: 100px;
+    height: 100px;
+    
+}
+
