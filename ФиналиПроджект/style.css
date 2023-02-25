@@ -103,7 +103,7 @@ li{
     display: inline-block;
     width: 50%;
     min-height: 70vh;
-    background-image: url(./img1.jpg);
+    background-image: url(image/img1.jpg);
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
@@ -149,13 +149,59 @@ button{
 
 .top-creator{
     color:  var(--color-white);
-    text-align: center;
+}
+
+.top-creator button{
+    width: 100px;
+    height: 50px;
+    border-radius: 5px;
+    margin-left: 45%;
 }
 
 .top{
     font-size: 3rem;
+    text-align: center;
 }
 
 .p4{
     color: var(--color-cloud-burst);
+    text-align: center;
+}
+
+.block{
+    width: 250px;
+    border: solid 1px var(--color-white);
+    border-radius: 5px;
+}
+
+.block img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 5px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.block div{
+    display: inline-block;
+}
+
+.p5{
+    color: var(--color-bolotO);
+}
+
+.the-most-collections{
+    color: var(--color-white);
+}
+
+.collection{
+    font-size: 3rem;
+    text-align: center;
+}
+
+.p6{
+    color: var(--color-cloud-burst);
+    text-align: center;
 }
