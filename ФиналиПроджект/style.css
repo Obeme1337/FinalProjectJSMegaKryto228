@@ -80,8 +80,16 @@ body{
     justify-content: space-between;
 }
 
+.menu button{
+    width: 100px;
+    height: 50px;
+    background: var(--background-cl);
+    border-radius: 10px;
+}
+
 .list{
     display: flex;
+    align-items: center;
 }
 
 li{
@@ -120,7 +128,7 @@ button{
 }
 
 .but1{
-    background-color: var(--background-cl);
+    background: var(--background-cl);
     margin-right: 15%;
 }
 
@@ -156,16 +164,26 @@ button{
     height: 50px;
     border-radius: 5px;
     margin-left: 45%;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
 }
 
 .top{
     font-size: 3rem;
     text-align: center;
+    margin-bottom: 3vh;
 }
 
 .p4{
     color: var(--color-cloud-burst);
     text-align: center;
+    margin-bottom: 5vh;
+}
+
+.main-block{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(270px, 1fr));
+    grid-gap: 1rem;
 }
 
 .block{
@@ -192,8 +210,14 @@ button{
     color: var(--color-bolotO);
 }
 
+.p5 svg{
+    position: relative;
+    top: 5px;
+}
+
 .the-most-collections{
     color: var(--color-white);
+    margin-bottom: 15vh;
 }
 
 .collection{
@@ -204,4 +228,93 @@ button{
 .p6{
     color: var(--color-cloud-burst);
     text-align: center;
+}
+
+.the-most-collections button{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-top: 5vh;
+}
+
+.most-collections button:nth-of-type(1){
+    margin-left: 43%;
+}
+
+.the-most-collections button:nth-of-type(2){
+    background: var(--background-cl);
+    margin-left: 3%;
+}
+
+.swiper {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+}
+
+.meet-the-feNFT{
+    display: flex;
+    margin-bottom: 7vh;
+}
+
+.block1{
+    width: 50%;
+    display: inline-block;
+}
+
+.block2{
+    width: 50%;
+    display: inline-block;
+}
+
+.block2
+
+.meet-the-feNFT button{
+    color: var(--color-white);
+    width: 100px;
+    height: 50px;
+    border-radius: 5px;
+    background: var(--background-cl);
+}
+
+.p7{
+    color: var(--color-white);
+    font-size: 3rem;
+}
+.p8{
+    color: var(--color-cloud-burst);
+}
+
+.rare-digital-art{
+    text-align: center;
+}
+
+.uniqua{
+    font-size: 3rem;
+    color: var(--color-white);
+}
+
+.p9{
+    color: var(--color-cloud-burst);
+    margin-bottom: 5vh;
+}
+
+.rare-digital-art button{
+    color: var(--color-white);
+    width: 100px;
+    height: 50px;
+    border-radius: 5px;
+    background: var(--background-cl);
 }
