@@ -82,6 +82,7 @@ body{
 
 .menu p{
     font-size: 1.5rem;
+    color: #ca3136;
 }
 
 .menu button{
@@ -161,6 +162,7 @@ button{
 
 .top-creator{
     color:  var(--color-white);
+    margin-bottom: 15vh;
 }
 
 .top-creator button{
@@ -169,7 +171,6 @@ button{
     border-radius: 5px;
     margin-left: 45%;
     margin-top: 5vh;
-    margin-bottom: 5vh;
 }
 
 .top{
@@ -270,17 +271,48 @@ button{
 
 .meet-the-feNFT{
     display: flex;
-    margin-bottom: 7vh;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-bottom: 15vh;
 }
 
 .block1{
     width: 50%;
-    display: inline-block;
 }
 
 .block2{
     width: 50%;
-    display: inline-block;
+    display: flex;
+    margin-left: 20%;
+}
+
+.image1{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 5px solid #EE29C9;
+    object-fit: cover;
+    object-position: center;
+    margin-bottom: 50%;
+}
+
+.image2{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 5px solid #FFDD10;
+    object-fit: cover;
+    object-position: center;
+}
+
+.image3{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    border: 5px solid #002445;
+    object-fit: cover;
+    object-position: center;
+    margin-left: 20px;
 }
 
 .meet-the-feNFT button{
@@ -289,6 +321,7 @@ button{
     height: 50px;
     border-radius: 5px;
     background: var(--background-cl);
+    margin-top: 7vh;
 }
 
 .p7{
@@ -301,6 +334,7 @@ button{
 
 .rare-digital-art{
     text-align: center;
+    margin-bottom: 7vh;
 }
 
 .uniqua{
@@ -323,20 +357,27 @@ button{
 
 footer{
     display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .block-footer{
     width: 30%;
-    margin-right: 20%;
 }
 
 .p10{
     color: var(--color-white);
     font-size: 1.5rem;
+    color: #ca3136;
 }
 
 .p11{
     color: var(--color-cloud-burst);
+    margin-bottom: 3vh;
+}
+
+.block-footer svg{
+    margin-right:1.5vw;
 }
 
 .block-footer2{
@@ -354,4 +395,8 @@ footer{
 
 .block-footer2 ul{
     color: var(--color-cloud-burst);
+}
+
+@media(max-width: 1050px) {
+    
 }
