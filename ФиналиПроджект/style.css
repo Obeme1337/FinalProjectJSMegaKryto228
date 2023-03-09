@@ -272,7 +272,8 @@ button{
 .meet-the-feNFT{
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-between;
+    flex-wrap: wrap;
     margin-bottom: 15vh;
 }
 
@@ -281,9 +282,8 @@ button{
 }
 
 .block2{
-    width: 50%;
+    width: 30%;
     display: flex;
-    margin-left: 20%;
 }
 
 .image1{
@@ -322,6 +322,7 @@ button{
     border-radius: 5px;
     background: var(--background-cl);
     margin-top: 7vh;
+    margin-bottom: 3vh;
 }
 
 .p7{
@@ -397,6 +398,62 @@ footer{
     color: var(--color-cloud-burst);
 }
 
+@media(max-width: 1270px) {
+    .block1{
+        width: 50%;
+    }
+    .block2{
+        width: 40%;
+    }
+}
+
+@media(max-width: 1200px) {
+    .block-footer2{
+        width: 60%;
+    }
+}
+
 @media(max-width: 1050px) {
-    
+    .block-footer2{
+        width: 70%;
+    }
+}
+
+@media(max-width: 970px) {
+    .block1{
+        width: 40%;
+    }
+    .block2{
+        width: 50%;
+    }
+}
+
+@media(max-width: 850px) {
+    .block-footer{
+        width: 100%;
+        text-align: center;
+    }
+    .block-footer2{
+        width: 100%;
+    }
+}
+
+@media(max-width: 790px) {
+    .block1{
+        width: 40%;
+    }
+    .block2{
+        width: 60%;
+    }
+}
+
+@media(max-width: 750px) {
+    .block1{
+        width: 100%;
+        text-align: center;
+    }
+    .block2{
+        width: 100%;
+        justify-content: center;
+    }
 }
