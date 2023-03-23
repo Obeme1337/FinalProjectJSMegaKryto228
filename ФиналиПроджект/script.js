@@ -11,3 +11,7 @@ const swiper = new Swiper('.swiper', {
         slideShadows: true,
       },
 });
+
+window.onload = function() { 
+  
+};
