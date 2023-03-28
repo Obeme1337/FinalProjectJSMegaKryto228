@@ -13,5 +13,11 @@ const swiper = new Swiper('.swiper', {
 });
 
 window.onload = function() { 
-  
+  let doc = document.querySelector('.preloader')
+  setTimeout(() => {
+    doc.classList.add('load')
+  },1000)
+
 };
+
+AOS.init();

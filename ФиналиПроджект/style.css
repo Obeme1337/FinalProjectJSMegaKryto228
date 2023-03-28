@@ -391,6 +391,8 @@ footer{
 .preloader{
     position: fixed;
     inset: 0;
+    transform: translateY(0);
+    z-index: 2;
     background-color: var(--color-background);
 }
 
@@ -399,7 +401,24 @@ footer{
     display: flex;
     justify-content: center;
     align-items: center;
+    transition: all 0.3s ease-in-out;
 }
+
+.preloader.load {
+    transform: translateY(-1000px);
+    transition: all 0.3s ease-in-out;
+}
+
+.fancy-6 {
+    background:
+      linear-gradient(45deg, #ffffff 50%, transparent 0) right /250% 100% no-repeat,
+      linear-gradient(45deg, transparent 50%, #ffffff 0) left /250% 100% no-repeat;
+    transition: 0.5s;
+  }
+  .fancy-6:hover {
+    background-position: center;
+    color: var(--color-background);
+  }
 
 @media(max-width: 1270px) {
     .block1{
